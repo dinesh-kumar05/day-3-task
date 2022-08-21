@@ -1,0 +1,14 @@
+var resume =
+{
+"name":"dinesh",
+"age":"25",
+"edu":"fsd",
+};
+//for in method
+for (var key in  resume){
+     console.log(key,resume[key]);
+}
+//for of method
+for (var key of Object.keys(resume)){
+     console.log(key,resume[key])
+}
